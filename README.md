@@ -37,7 +37,7 @@ Data final: 21/10/2022
 
 Os usuários devem ser capazes de: 
 
-- Visualizar os cards na versão desktop e responsiva
+- Visualizar os cards na versão desktop e mobile
 
 <br />
 
@@ -93,7 +93,7 @@ Dentro da pasta `/design` está o design do projeto.
 
 <br />
 
-- Clique no link para acessar a página: 
+- Clique no link para acessar a página: https://loquacious-salamander-91fee9.netlify.app/
 
 <br />
 
@@ -137,7 +137,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz]()
+- Personal Page - [Raíza Cirne Braz](https://loquacious-salamander-91fee9.netlify.app/)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
