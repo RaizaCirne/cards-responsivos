@@ -55,4 +55,19 @@ main.cards section.card button {
     cursor: pointer;
     font-size: 80%;
     font-weight: 500;
+    color: #fff;
 }
+
+main.cards section.card.violao button {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+
+main.cards section.card.piano button {
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+
+main.cards section.card.violino button {
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+
+
