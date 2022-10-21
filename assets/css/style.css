@@ -30,7 +30,7 @@ main.cards section.card {
     background: white;
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    max-height: 256px;
+    max-height: 468px;
     margin-left: 32px;
 }
 
@@ -45,6 +45,18 @@ main.cards section.card .icon {
 
 main.cards section.card img {
     width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
 }
 
 main.cards section.card button {
@@ -70,4 +82,34 @@ main.cards section.card.violino button {
     background: linear-gradient(to right, #FE5F8F, #FFC7D9);
 }
 
+main.cards section.card.violao button {
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+
+main.cards section.card.piano button {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+
+main.cards section.card.violino button {
+    box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+}
 
