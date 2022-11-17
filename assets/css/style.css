@@ -34,6 +34,10 @@ main.cards section.card {
     margin-left: 32px;
 }
 
+.card:hover{
+    scale:1.1;
+}
+
 main.cards section.card:first-child {
     margin-left: 0;
 }
@@ -70,6 +74,10 @@ main.cards section.card button {
     color: #fff;
 }
 
+.card>button:hover{
+    opacity: 0.8;
+}
+
 main.cards section.card.violao button {
     background: linear-gradient(to right, #9F66FF, #DFCBFF);
 }
@@ -93,6 +101,8 @@ main.cards section.card.piano button {
 main.cards section.card.violino button {
     box-shadow: 20px 20px 50px -30px #FFC1D5;
 }
+
+
 
 @media screen and (max-width: 720px) {
     main.cards {
